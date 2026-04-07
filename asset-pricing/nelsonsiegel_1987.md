@@ -19,15 +19,15 @@
 
 The paper motivates the forward-rate specification from the solution to a second-order differential equation.
 
-Let (r(m)) denote the instantaneous forward rate at maturity (m).\
-The authors first consider the case in which (r(m)) is given by the solution to a second-order differential equation with real and unequal roots.\
+Let $r(m)$ denote the instantaneous forward rate at maturity $m$.\
+The authors first consider the case in which $r(m)$ is given by the solution to a second-order differential equation with real and unequal roots.\
 In that case, the forward rate takes the form
 
 $$
 r(m)=\beta_0+\beta_1 \exp(-m/\tau_1)+\beta_2 \exp(-m/\tau_2).
 $$
 
-This specification can generate monotonic, humped, and S-shaped forward-rate curves depending on the values of ( \beta\_1 ) and ( \beta\_2 ), and its long-run asymptote is ( \beta\_0 ).
+This specification can generate monotonic, humped, and S-shaped forward-rate curves depending on the values of  $\beta\_1$  and ( \beta\_2 ), and its long-run asymptote is ( \beta\_0 ).
 
 The associated yield to maturity is defined as the average of forward rates:
 
