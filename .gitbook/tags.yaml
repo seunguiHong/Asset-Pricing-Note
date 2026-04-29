@@ -1,0 +1,9 @@
+- tag: neural-sdf
+  label: Neural SDF
+  color: red
+- tag: term-structure
+  label: Term Structure
+  color: purple
+- tag: aipt
+  label: AIPT
+  color: pink

@@ -1,3 +1,8 @@
+---
+tags:
+  - term-structure
+---
+
 # NelsonSiegel\_1987
 
 ## Parsimonious Modeling of Yield Curves
@@ -19,15 +24,15 @@
 
 The paper motivates the forward-rate specification from the solution to a second-order differential equation.
 
-Let $r(m)$ denote the instantaneous forward rate at maturity $m$.\
-The authors first consider the case in which $r(m)$ is given by the solution to a second-order differential equation with real and unequal roots.\
+Let $$r(m)$$ denote the instantaneous forward rate at maturity $$m$$.\
+The authors first consider the case in which $$r(m)$$ is given by the solution to a second-order differential equation with real and unequal roots.\
 In that case, the forward rate takes the form
 
 $$
 r(m)=\beta_0+\beta_1 \exp(-m/\tau_1)+\beta_2 \exp(-m/\tau_2).
 $$
 
-This specification can generate monotonic, humped, and S-shaped forward-rate curves depending on the values of  $\beta\_1$  and ( \beta\_2 ), and its long-run asymptote is ( \beta\_0 ).
+This specification can generate monotonic, humped, and S-shaped forward-rate curves depending on the values of $$\beta_1$$ and $$\beta_2$$, and its long-run asymptote is $$\beta_0$$.
 
 The associated yield to maturity is defined as the average of forward rates:
 
@@ -38,7 +43,7 @@ $$
 So the implied yield curve inherits the same broad range of shapes.
 
 The paper then argues that this unequal-roots specification is empirically overparameterized.\
-As ( \tau\_1 ) and ( \tau\_2 ) vary, it is possible to find different coefficient values that produce nearly the same fit.\
+As $$\tau_1$$ and $$\tau_2$$ vary, it is possible to find different coefficient values that produce nearly the same fit.\
 This motivates moving to a more parsimonious model.
 
 The parsimonious specification comes from the **equal-roots case**.\
@@ -71,7 +76,7 @@ These correspond naturally to:
 * short-term component,
 * medium-term hump component.
 
-To obtain the yield curve, integrate equation (1) from (0) to (m) and divide by (m).\
+To obtain the yield curve, integrate equation (1) from $$0$$ to $$m$$ and divide by $$m$$.\
 This gives
 
 $$
@@ -82,21 +87,21 @@ This is the yield-curve representation used in the paper.
 
 The endpoint behavior is straightforward.
 
-As (m\to\infty),
+As $$m\to\infty$$,
 
 $$
 r(m)\to\beta_0,\qquad R(m)\to\beta_0.
 $$
 
-So ( \beta\_0 ) controls the long-run level.
+So $$\beta_0$$ controls the long-run level.
 
-As (m\to 0),
+As $$m\to 0$$,
 
 $$
 R(m)\to\beta_0+\beta_1.
 $$
 
-So the short end is determined by ( \beta\_0+\beta\_1 ), while ( \beta\_2 ) controls the medium-maturity curvature.
+So the short end is determined by $$\beta_0+\beta_1$$, while $$\beta_2$$ controls the medium-maturity curvature.
 
 For empirical fitting, the paper rewrites the yield curve as
 
@@ -104,7 +109,7 @@ $$
 R(m)=a+b\frac{1-\exp(-m/\tau)}{m/\tau}+c\exp(-m/\tau). \tag{3}
 $$
 
-Conditional on ( \tau ), this is linear in coefficients, so (a), (b), and (c) can be estimated by linear least squares.
+Conditional on $$\tau$$, this is linear in coefficients, so $$a$$, $$b$$, and $$c$$ can be estimated by linear least squares.
 
 ***
 
@@ -119,5 +124,5 @@ Conditional on ( \tau ), this is linear in coefficients, so (a), (b), and (c) ca
 ### 4. Contribution & results
 
 * The paper provides a low-dimensional alternative to spline and polynomial yield-curve fitting and shows that a second-order exponential structure is flexible enough to capture the standard empirical shapes of the term structure.
-* Across the Treasury bill samples, the model fits very well: the median (R^2) is about 0.959 and the median residual standard deviation is about 7.25 basis points.
+* Across the Treasury bill samples, the model fits very well: the median $$R^2$$ is about 0.959 and the median residual standard deviation is about 7.25 basis points.
 * The hump-generating component materially improves fit relative to a restricted monotonic model, and the fitted curves also extrapolate well enough to produce long-bond price predictions that are highly correlated with actual bond prices.
