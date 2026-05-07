@@ -16,7 +16,7 @@ $$
 d_t = g(e_{it}) - g(e_{jt}).
 $$
 
-Here, $$e_{it}$$ and $$e_{jt}$$ are forecast errors from models $$i$$ and $$j$$, and $$g(\cdot)$$ is a loss function.
+Here, $$e_{it}$$ and $$e_{jt}$$ are forecast errors from models $$i$$ and $$j$$, and $$g(\cdot)$$ is a loss function. (It is of importance loss function is not limited with sqaured error)
 
 * Equal predictive accuracy is:
 
