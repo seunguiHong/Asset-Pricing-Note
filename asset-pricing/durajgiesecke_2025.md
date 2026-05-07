@@ -2,9 +2,7 @@
 
 ***
 
-## DurajGiesecke\_2025
-
-### Deep Learning for Corporate Bonds
+## Deep Learning for Corporate Bonds
 
 **Author(s):** Jetlir Duraj, Oliver Giesecke\
 **Journal / Year:** Working paper
