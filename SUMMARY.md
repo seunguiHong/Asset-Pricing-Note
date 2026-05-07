@@ -8,5 +8,8 @@
   * [DidisheimKeKellyMalamud\_2025](asset-pricing/didisheimkekellymalamud_2025.md)
   * [LiangChenKyriakou\_2025](asset-pricing/liangchenkyriakou_2025.md)
   * [DurajGiesecke\_2025](asset-pricing/durajgiesecke_2025.md)
+* [Econometrics](econometrics/README.md)
+  * [ClarkWest\_2007](econometrics/clarkwest_2007.md)
+  * [Page 1](econometrics/page-1.md)
 
 ## Machine Learning <a href="#ml" id="ml"></a>
